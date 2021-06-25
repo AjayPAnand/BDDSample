@@ -20,6 +20,7 @@ public class CRMStepDef extends TestBase{
 	
 	@Given("User is already on Login page")
 	public void user_is_already_on_login_page() {
+		System.out.println("Updated ....");
 		initialize();
 	}
 	//Fetching as Maps
